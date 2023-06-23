@@ -1,0 +1,1280 @@
+vs_additional_info:
+- name: ADSF-CERTAUTH
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ADSF-SSL
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ANALYTICS-DATAROBOT-API-HTTP
+  notifications: pbo_engineering@factset.com; pbo_curator
+  stakeholders: pbo_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ANALYTICS-DATAROBOT-API-SSL
+  notifications: pbo_engineering@factset.com; pbo_curator
+  stakeholders: pbo_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: AW-2001
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: AW-2010
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: AW-2020
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: AW-HTTP
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: AW-SSL
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: AWD-2001
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: AWD-2010
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: AWD-2020
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: AWD-HTTP
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: AWD-SSL
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CALLSTREET-AUDIO-HTTP
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-AUDIO-RTSP
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-AWS-HTTP
+  notifications: callstreet-front-dev@factset.com;event_calendar
+  stakeholders: callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CALLSTREET-AWS-SSL
+  notifications: callstreet-front-dev@factset.com;event_calendar
+  stakeholders: callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CALLSTREET-DEMO-HTTP
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com;callstreet_curator;event_calendar
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CALLSTREET-DEMO-SSL
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com;callstreet_curator;event_calendar
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CALLSTREET-HTTP
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;callstreet_curator;event_calendar
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CALLSTREET-PARTNERS-HTTP
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com;
+    callstreet_curator; lamp_infra_support_oncall
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CALLSTREET-PARTNERS-SSL
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com;
+    callstreet_curator; lamp_infra_support_oncall
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CALLSTREET-REALTIME-HTTP
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;callstreet_curator
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-REALTIME-SSL
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;callstreet_curator
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-SERVICES-HTTP
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com; callstreet_curator;
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-SERVICES-SSL
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;callstreet_curator
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-SSL
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com;callstreet_curator;event_calendar
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com;lamp_infra_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CALLSTREET-SUPPORT-HTTP
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;callstreet_curator
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-SUPPORT-SSL
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;callstreet_curator
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-SUPPORT2-HTTP
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;callstreet_curator
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-SUPPORT2-SSL
+  notifications: callstreet_tech@factset.com;callstreet-front-dev@factset.com;callstreet_curator
+  stakeholders: callstreet_tech@factset.com;callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CALLSTREET-SUPPORTSERVICES-HTTP
+  notifications: callstreet_tech@factset.com; callstreet-front-dev@factset.com;callstreet_curator
+  stakeholders: callstreet_tech@factset.com; callstreet-front-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CAUTH-APPS-HTTP
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-APPS-SSL
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-DATAFEED-SSL
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-GATEWAY-SSL
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-LOGIN3-HTTP
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-LOGIN3-SSL
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-OTP-HTTP
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-OTP-SSL
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-PINGFED-OTP-EXTERNAL-MTLS-8443
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: CAUTH-PINGFED-UAT-EXTERNAL-MTLS-8443
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: CAUTH-PUB-GATEWAY-SSL
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-PUB-OTP-SSL
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-THIRDPIPE-GATEWAY-SSL
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-UAT-GATEWAY-HTTP
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-UAT-GATEWAY-SSL
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-UAT-OTP-HTTP
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-UAT-OTP-SSL
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-UAT-WEB-HTTP
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CAUTH-UAT-WEB-SSL
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CENTRALDISPATCHER-AC-SSL
+  notifications: market_data_technology_support@factset.com; mdts; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: market_data_technology_support@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CLIENTSURVEY-SSL
+  notifications: systems.analytics@factset.com ; voice_engineering@factset.com
+  stakeholders: systems.analytics@factset.com ; voice_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: COLLABPUB-SSL
+  notifications: collabpub_stakeweb@factset.com
+  stakeholders: collabpub_stakeweb@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: COLLABPUB-STAGING-SSL
+  notifications: collabpub_stakeweb@factset.com
+  stakeholders: collabpub_stakeweb@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: COMPONENTS-FULL-SSL
+  notifications: market_data_technology_support@factset.com; mdts
+  stakeholders: market_data_technology_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: COMPONENTS-SSL
+  notifications: market_data_technology_support@factset.com; mdts
+  stakeholders: market_data_technology_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CONDUIT-BETA-SSL
+  notifications: conduit@factset.com
+  stakeholders: conduit@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CONDUIT-SSL
+  notifications: conduit@factset.com; neteng-engineers@factset.com; nocstaff@factset.com
+  stakeholders: conduit@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CONNECT-HTTP
+  notifications: factsetconnectadmin@factset.com; neteng-engineers@factset.com; nocstaff@factset.com
+  stakeholders: factsetconnectadmin@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: CONNECT-PUB-HTTP
+  notifications: factsetconnectadmin@factset.com
+  stakeholders: factsetconnectadmin@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: CONNECT-PUB-SSL
+  notifications: factsetconnectadmin@factset.com
+  stakeholders: factsetconnectadmin@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: CONNECT-SSL
+  notifications: factsetconnectadmin@factset.com
+  stakeholders: factsetconnectadmin@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: CONTENT-REVERE-PROD-HTTP
+  notifications: revere.engineering@factset.com
+  stakeholders: revere.engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CONTENT-REVERE-PROD-SSL
+  notifications: revere.engineering@factset.com
+  stakeholders: revere.engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: CORNERSTONE-HTTP
+  notifications: cs20engineers@factset.com
+  stakeholders: cs20engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: CORNERSTONE-SSL
+  notifications: cs20engineers@factset.com
+  stakeholders: cs20engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: CSE-SECURE-HTTP
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CSE-SECURE-SSL
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CSE-SSO4-49443
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CSE-SSO4-HTTPS
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CSE-WS1DMZ-2020
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CSE-WS1DMZ-8443
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: CSE-WS1DMZ-HTTPS
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: DATADIRECT-INTERNAL-HTTP
+  notifications: datafeed_engineers@factset.com
+  stakeholders: datafeed_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: DATADIRECT-SSL
+  notifications: datafeed_engineers@factset.com; neteng-engineers@factset.com; nocstaff@factset.com
+  stakeholders: datafeed_engineers@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: DATAFEED-API-PROD-6681
+  notifications: datafeed_engineers@factset.com; neteng-engineers@factset.com; nocstaff@factset.com
+  stakeholders: datafeed_engineers@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: DATAFEED-API-STAGE-6681
+  notifications: datafeed_engineers@factset.com; neteng-engineers@factset.com; nocstaff@factset.com
+  stakeholders: datafeed_engineers@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: DATAFEED-BAML-DFBCAST-6670-6780
+  notifications: datafeed_engineers@factset.com
+  stakeholders: datafeed_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: DATAFEED-CANNED-STAGE-6681
+  notifications: datafeed_engineers@factset.com
+  stakeholders: datafeed_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: DATAFEED-DJN-DFBCAST-6670-6780
+  notifications: datafeed_engineers@factset.com
+  stakeholders: datafeed_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: DATAFEED-UF-API-STAGE-6681
+  notifications: datafeed_engineers@factset.com
+  stakeholders: datafeed_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: ECONOMENA-HTTP
+  notifications: fundamentals_dam_tech@factset.com; dam
+  stakeholders: fundamentals_dam_tech@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ECONOMENA-SSL
+  notifications: fundamentals_dam_tech@factset.com; dam
+  stakeholders: fundamentals_dam_tech@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ENTERPRISE-HOSTING-AUTH-REDIRECT-HTTP
+  notifications: ccsdbunit@factset.com; cs20engineers@factset.com; ccsdbunit_oncall;
+    neteng-engineers@factset.com; nocstaff@factset.com
+  stakeholders: ccsdbunit@factset.com; cs20engineers@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ENTERPRISE-HOSTING-AUTH-REDIRECT-SSL
+  notifications: ccsdbunit@factset.com; cs20engineers@factset.com; ccsdbunit_oncall;
+    neteng-engineers@factset.com; nocstaff@factset.com
+  stakeholders: ccsdbunit@factset.com; cs20engineers@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ENTITLEMENTS-AWS-HTTP
+  notifications: entitlements_tech_support@factset.com;research_entitlements_curator
+  stakeholders: entitlements_tech_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ENTITLEMENTS-AWS-SSL
+  notifications: entitlements_tech_support@factset.com;research_entitlements_curator
+  stakeholders: entitlements_tech_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ES-BPM-HTTP
+  notifications: jirasystemadmins@factset.com; jira_system_admins
+  stakeholders: jirasystemadmins@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ES-BPM-SSL
+  notifications: jirasystemadmins@factset.com; jira_system_admins
+  stakeholders: jirasystemadmins@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ES-BPM-STG-HTTP
+  notifications: jirasystemadmins@factset.com; jira_system_admins
+  stakeholders: jirasystemadmins@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: ES-BPM-STG-SSL
+  notifications: jirasystemadmins@factset.com; jira_system_admins
+  stakeholders: jirasystemadmins@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: EXCHANGE-SMTP
+  notifications: messaging.and.collaboration@factset.com; cseteam
+  stakeholders: messaging.and.collaboration@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: EXCHANGE-SSL
+  notifications: messaging.and.collaboration@factset.com; cseteam
+  stakeholders: messaging.and.collaboration@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: EXCHCASHUB-IMAPS
+  notifications: messaging.and.collaboration@factset.com; cseteam
+  stakeholders: messaging.and.collaboration@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: FACTSET-WWW-HTTP
+  notifications: fdsweb@factset.com; fdsweb
+  stakeholders: fdsweb@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: FACTSET-WWW-SSL
+  notifications: fdsweb@factset.com; fdsweb
+  stakeholders: fdsweb@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: FACTSET-WWW-TEST-HTTP
+  notifications: fdsweb@factset.com; fdsweb
+  stakeholders: fdsweb@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: FACTSET-WWW-TEST-SSL
+  notifications: fdsweb@factset.com; fdsweb
+  stakeholders: fdsweb@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: FACTSETMERGERS-HTTP
+  notifications: tc-dev@factset.com
+  stakeholders: tc-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: FACTSETMERGERS-SSL
+  notifications: tc-dev@factset.com
+  stakeholders: tc-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: FDSLEARN-HTTP
+  notifications: fdsweb@factset.com; fdsweb
+  stakeholders: fdsweb@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: FDSLEARN-SSL
+  notifications: fdsweb@factset.com; fdsweb
+  stakeholders: fdsweb@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: FF-BPO-PORTAL-HTTP
+  notifications: fundamentals_dam_tech@factset.com; dam
+  stakeholders: fundamentals_dam_tech@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: FF-BPO-PORTAL-SSL
+  notifications: fundamentals_dam_tech@factset.com; dam
+  stakeholders: fundamentals_dam_tech@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: GLOBALFILINGS-BPO-OPS-SSL
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: GLOBALFILINGS-INTERNAL-APP-1099
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: GLOBALFILINGS-INTERNAL-SQL3-3308
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: GLOBALFILINGS-INTERNAL-SSM-8083
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: HONEYPOT-FTP
+  notifications: security.assurance@factset.com; webappsec
+  stakeholders: security.assurance@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: HONEYPOT-HTTP
+  notifications: security.assurance@factset.com; webappsec
+  stakeholders: security.assurance@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: IS-EXAM-SSL
+  notifications: information_systems@factset.com; is-devops-oncall
+  stakeholders: information_systems@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: IS-QUIZMAKER-PROD-SSL
+  notifications: lrnengineers@factset.com
+  stakeholders: lrnengineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: LIONSHARES-DSM-FTP
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: false
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: LIONSHARES-HTTP
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: LIONSHARES-SSL
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: LOGIN3-HTTP
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: false
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: LOGIN3-SSL
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: false
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: MAIL-CORP-DMZ-SMTP
+  notifications: security_infrastructure@factset.com;messaging.and.collaboration@factset.com;
+    securityteam; cseteam
+  stakeholders: security_infrastructure@factset.com;messaging.and.collaboration@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: MERGERMETRICS-HTTP
+  notifications: tc-dev@factset.com
+  stakeholders: tc-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: MERGERMETRICS-SSL
+  notifications: tc-dev@factset.com
+  stakeholders: tc-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: NATIVECLOUD-GATEWAY-HTTP-PROD
+  notifications: nativecloud-gateway@factset.com; nativecloud_gateway; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: nativecloud-gateway@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: NATIVECLOUD-GATEWAY-HTTP-UAT
+  notifications: nativecloud-gateway@factset.com; nativecloud_gateway
+  stakeholders: nativecloud-gateway@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: NATIVECLOUD-GATEWAY-HTTPS-PROD
+  notifications: nativecloud-gateway@factset.com; nativecloud_gateway; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: nativecloud-gateway@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: NATIVECLOUD-GATEWAY-HTTPS-UAT
+  notifications: nativecloud-gateway@factset.com; nativecloud_gateway
+  stakeholders: nativecloud-gateway@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: NEWS-ALLDOW-13113
+  notifications: news_engineers@factset.com
+  stakeholders: news_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: NEWS-ALLDOW-TEST-13113
+  notifications: news_engineers@factset.com
+  stakeholders: news_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: NEWS-DJFEED-13113
+  notifications: news_engineers@factset.com
+  stakeholders: news_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: NEWS-DJFEED-TEST-13113
+  notifications: news_engineers@factset.com
+  stakeholders: news_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: NEWS-FASTCOPY-REDIRECT-5745
+  notifications: news_engineers@factset.com
+  stakeholders: news_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: NEWS-TP2AUTH-HTTP
+  notifications: news_engineers@factset.com
+  stakeholders: news_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: NEWSIMAGES-CLIENT-HTTP
+  notifications: news_processing_engineers@factset.com; unix_team@factset.com
+  stakeholders: news_engineers@factset.com; unix_team@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: NEWSIMAGES-CLIENT-SSL
+  notifications: news_processing_engineers@factset.com; unix_team@factset.com
+  stakeholders: news_engineers@factset.com; unix_team@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: OSSO-CERTAUTH
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: OSSO-SSL
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: OWNERSHIP-API-HTTP
+  notifications: ownership_app_support@factset.com
+  stakeholders: ownership_app_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: OWNERSHIP-API-SSL
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: PARTNERKEYS-SSL
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: PKI-CRL-HTTP
+  notifications: corporate_systems_engineering@factset.com; cseteam
+  stakeholders: corporate_systems_engineering@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: RESEARCH-MI-HTTP
+  notifications: lamp_infra_support@factset.com;publishing@factset.com; lamp_infra_support_oncall;
+    publishing_team
+  stakeholders: lamp_infra_support@factset.com;publishing@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: RESEARCH-MI-SSL
+  notifications: lamp_infra_support@factset.com;publishing@factset.com; lamp_infra_support_oncall;
+    publishing_team
+  stakeholders: lamp_infra_support@factset.com;publishing@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: RTGATEWAY-HTTP
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: RTGATEWAY-SSL
+  notifications: central_auth@factset.com; central_auth; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: SALESFORCE-MESSENGER-SSL
+  notifications: salesforce-lightning-evaluation@factset.com
+  stakeholders: salesforce-lightning-evaluation@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: SALESFORCE-MESSENGER-STAGING-SSL
+  notifications: salesforce-lightning-evaluation@factset.com
+  stakeholders: salesforce-lightning-evaluation@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: SCIO-FTP
+  notifications: news.services.content.engineers@factset.com; news_content
+  stakeholders: news.services.content.engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: SHARKREPELLENT-HTTP
+  notifications: tc-dev@factset.com
+  stakeholders: tc-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: SHARKREPELLENT-INTERNAL-SSL
+  notifications: tc-dev@factset.com
+  stakeholders: tc-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: SHARKREPELLENT-SSL
+  notifications: tc-dev@factset.com
+  stakeholders: tc-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: STATIC-CDN-DMZ-CLOUD-HTTP
+  notifications: factset.io@factset.com; factsetio_oncall; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: factset.io@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: STATIC-CDN-DMZ-CLOUD-SSL
+  notifications: factset.io@factset.com; factsetio_oncall; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: factset.io@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: STATIC-CDN-DMZ-HTTP
+  notifications: datafeed-web@factset.com
+  stakeholders: datafeed-web@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: STATIC-CDN-DMZ-SSL
+  notifications: datafeed-web@factset.com
+  stakeholders: datafeed-web@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: SUPPORT-HTTP
+  notifications: market_data_technology_support@factset.com; mdts
+  stakeholders: market_data_technology_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: SUPPORT-SSL
+  notifications: market_data_technology_support@factset.com; mdts
+  stakeholders: market_data_technology_support@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: UAT-RTGATEWAY-HTTP
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: UAT-RTGATEWAY-SSL
+  notifications: central_auth@factset.com; central_auth
+  stakeholders: central_auth@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: UPDATE-SSL
+  notifications: market_data_technology_support@factset.com; mdts; neteng-engineers@factset.com;
+    nocstaff@factset.com
+  stakeholders: market_data_technology_support@factset.com
+  servicesconsideredcritical: true
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: VIEWER-LITE-PROD-HTTP
+  notifications: viewer-lite@factset.com
+  stakeholders: viewer-lite@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: VIEWER-LITE-PROD-SSL
+  notifications: viewer-lite@factset.com
+  stakeholders: viewer-lite@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: VS-WILDCARD-FORWARDING
+  notifications: fdsg.sdc.infrastructure@factset.com; Linux Engineering EMEA
+  stakeholders: fdsg.sdc.infrastructure@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: WEBFORWARDING-HTTP
+  notifications: lms_engineers@factset.com
+  stakeholders: lms_engineers@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: WEBMAIL-HTTP
+  notifications: messaging.and.collaboration@factset.com; cseteam
+  stakeholders: messaging.and.collaboration@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: WEBMAIL-SSL
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: WIN-OPENFACTSET-AUTH-REDIRECT-HTTP
+  notifications: enterprise.hosting@factset.com; limaticketgranterwindowsvip@factset.com;
+    enterprise_hosting
+  stakeholders: enterprise.hosting@factset.com; limaticketgranterwindowsvip@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: WIN-OPENFACTSET-AUTH-REDIRECT-SSL
+  notifications: enterprise.hosting@factset.com; limaticketgranterwindowsvip@factset.com;
+    enterprise_hosting
+  stakeholders: enterprise.hosting@factset.com; limaticketgranterwindowsvip@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: WIRELESS-HTTP
+  notifications: wireless-dev@factset.com
+  stakeholders: wireless-dev@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: WIRELESS-SSL
+  notifications: null
+  stakeholders: null
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  monitor_override: false
+- name: WORKDAY-DMZ-32668
+  notifications: architecture.and.system.administration@factset.com
+  stakeholders: architecture.and.system.administration@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: false
+  icinga_monitor: '[{"name":"TCP-GENERIC-PORT-PROBE","interval":30,"timeout":91,"type":"tcp"}]'
+  monitor_override: true
+- name: FTS-EC-SFTP
+  notifications: file.transfer.system@factset.com; FTS FTP
+  stakeholders: file.transfer.system@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: FTS-EC-SFTP-NEWS
+  notifications: file.transfer.system@factset.com; FTS FTP
+  stakeholders: file.transfer.system@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: FTS-EC-FTP
+  notifications: file.transfer.system@factset.com; FTS FTP
+  stakeholders: file.transfer.system@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false
+- name: FTS-EC-FTP-NEWS
+  notifications: file.transfer.system@factset.com; FTS FTP
+  stakeholders: file.transfer.system@factset.com
+  servicesconsideredcritical: false
+  isactive: true
+  opsgenie: true
+  monitor_override: false

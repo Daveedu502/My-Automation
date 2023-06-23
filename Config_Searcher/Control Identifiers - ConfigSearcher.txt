@@ -1,0 +1,393 @@
+Control Identifiers:
+
+Dialog - 'Monster Device Configuration Searcher'    (L786, T42, R1760, B574)
+['Monster Device Configuration Searcher', 'Monster Device Configuration SearcherDialog', 'Dialog']
+child_window(title="Monster Device Configuration Searcher", control_type="Window")
+   | 
+   | TitleBar - ''    (L810, T45, R1752, B73)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - 'System'    (L794, T50, R816, B72)
+   |    | ['System', 'Menu', 'SystemMenu', 'System0', 'System1']
+   |    | child_window(title="System", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - 'System'    (L794, T50, R816, B72)
+   |    |    | ['System2', 'SystemMenuItem', 'MenuItem']
+   |    |    | child_window(title="System", control_type="MenuItem")
+   |    | 
+   |    | Button - 'Minimize'    (L1613, T43, R1660, B73)
+   |    | ['Minimize', 'MinimizeButton', 'Button', 'Button0', 'Button1']
+   |    | child_window(title="Minimize", control_type="Button")
+   |    | 
+   |    | Button - 'Maximize'    (L1660, T43, R1706, B73)
+   |    | ['Maximize', 'MaximizeButton', 'Button2']
+   |    | child_window(title="Maximize", control_type="Button")
+   |    | 
+   |    | Button - 'Close'    (L1706, T43, R1753, B73)
+   |    | ['Close', 'CloseButton', 'Button3']
+   |    | child_window(title="Close", control_type="Button")
+   | 
+   | TabControl - ''    (L794, T73, R1752, B566)
+   | ['TabControl', 'TabControlComparison', 'TabControlLogs', 'TabControlAudit', 'General SearchTabControl']
+   | child_window(auto_id="searchTabs", control_type="Tab")
+   |    | 
+   |    | TabItem - 'General Search'    (L794, T73, R889, B95)
+   |    | ['General Search', 'TabItem', 'General SearchTabItem', 'General Search0', 'General Search1', 'TabItem0', 'TabItem1']
+   |    | child_window(title="General Search", control_type="TabItem")
+   |    |    | 
+   |    |    | Static - 'General Search'    (L802, T76, R881, B92)
+   |    |    | ['General Search2', 'Static', 'General SearchStatic', 'Static0', 'Static1']
+   |    |    | child_window(title="General Search", control_type="Text")
+   |    |    | 
+   |    |    | Custom - ''    (L797, T98, R1749, B563)
+   |    |    | ['Custom', 'General SearchCustom', 'Custom0', 'Custom1', 'General SearchCustom0', 'General SearchCustom1']
+   |    |    | child_window(auto_id="generalSearchControl1", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | Static - 'Device:'    (L809, T110, R857, B138)
+   |    |    |    | ['Device:', 'Static2', 'Device:Static', 'Device:0', 'Device:1', 'Device:Static0', 'Device:Static1']
+   |    |    |    | child_window(title="Device:", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Device:'    (L814, T115, R852, B131)
+   |    |    |    |    | ['Device:2', 'Static3', 'Device:Static2']
+   |    |    |    |    | child_window(title="Device:", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Search String:'    (L809, T144, R891, B172)
+   |    |    |    | ['Static4', 'Search String:', 'Search String:Static', 'Search String:0', 'Search String:1', 'Search String:Static0', 'Search String:Static1']
+   |    |    |    | child_window(title="Search String:", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Search String:'    (L814, T149, R886, B165)
+   |    |    |    |    | ['Static5', 'Search String:2', 'Search String:Static2']
+   |    |    |    |    | child_window(title="Search String:", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L898, T146, R1737, B169)
+   |    |    |    | ['Edit', 'Search String:Edit', 'Edit0', 'Edit1']
+   |    |    |    | child_window(auto_id="searchStringTextBox", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar', 'ScrollBar0', 'ScrollBar1']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar2']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    | 
+   |    |    |    | Static - 'Results:'    (L809, T178, R859, B206)
+   |    |    |    | ['Results:Static', 'Results:', 'Static6', 'Results:Static0', 'Results:Static1', 'Results:0', 'Results:1']
+   |    |    |    | child_window(title="Results:", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Results:'    (L814, T183, R854, B199)
+   |    |    |    |    | ['Results:Static2', 'Results:2', 'Static7']
+   |    |    |    |    | child_window(title="Results:", control_type="Text")
+   |    |    |    | 
+   |    |    |    | ListBox - ''    (L898, T180, R1117, B305)
+   |    |    |    | ['Results:ListBox', 'ListBox', 'FRA-BIGIP-FDSG-DMZ-2ListBox']
+   |    |    |    | child_window(auto_id="resultsListBox", control_type="List")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'FRA-BIGIP-FDSG-DMZ-2'    (L900, T182, R1098, B202)
+   |    |    |    |    | ['ListItem', 'FRA-BIGIP-FDSG-DMZ-2', 'FRA-BIGIP-FDSG-DMZ-2ListItem', 'FRA-BIGIP-FDSG-DMZ-20', 'FRA-BIGIP-FDSG-DMZ-21', 'ListItem0', 'ListItem1']
+   |    |    |    |    | child_window(title="FRA-BIGIP-FDSG-DMZ-2", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'FRA-BIGIP-FDSG-DMZ-2'    (L905, T184, R1035, B200)
+   |    |    |    |    |    | ['Static8', 'FRA-BIGIP-FDSG-DMZ-22', 'FRA-BIGIP-FDSG-DMZ-2Static']
+   |    |    |    |    |    | child_window(title="FRA-BIGIP-FDSG-DMZ-2", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'NJ-BIGIP-FDSG-DMZ-1'    (L900, T202, R1098, B222)
+   |    |    |    |    | ['ListItem2', 'NJ-BIGIP-FDSG-DMZ-1ListItem', 'NJ-BIGIP-FDSG-DMZ-1', 'NJ-BIGIP-FDSG-DMZ-10', 'NJ-BIGIP-FDSG-DMZ-11']
+   |    |    |    |    | child_window(title="NJ-BIGIP-FDSG-DMZ-1", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'NJ-BIGIP-FDSG-DMZ-1'    (L905, T204, R1027, B220)
+   |    |    |    |    |    | ['NJ-BIGIP-FDSG-DMZ-12', 'Static9', 'NJ-BIGIP-FDSG-DMZ-1Static']
+   |    |    |    |    |    | child_window(title="NJ-BIGIP-FDSG-DMZ-1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'VA-BIGIP-FDSG-DMZ-1'    (L900, T222, R1098, B242)
+   |    |    |    |    | ['ListItem3', 'VA-BIGIP-FDSG-DMZ-1ListItem', 'VA-BIGIP-FDSG-DMZ-1', 'VA-BIGIP-FDSG-DMZ-10', 'VA-BIGIP-FDSG-DMZ-11']
+   |    |    |    |    | child_window(title="VA-BIGIP-FDSG-DMZ-1", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'VA-BIGIP-FDSG-DMZ-1'    (L905, T224, R1028, B240)
+   |    |    |    |    |    | ['VA-BIGIP-FDSG-DMZ-1Static', 'Static10', 'VA-BIGIP-FDSG-DMZ-12']
+   |    |    |    |    |    | child_window(title="VA-BIGIP-FDSG-DMZ-1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'NJ-BIGIP-DMZ-2'    (L900, T242, R1098, B262)
+   |    |    |    |    | ['NJ-BIGIP-DMZ-2', 'ListItem4', 'NJ-BIGIP-DMZ-2ListItem', 'NJ-BIGIP-DMZ-20', 'NJ-BIGIP-DMZ-21']
+   |    |    |    |    | child_window(title="NJ-BIGIP-DMZ-2", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'NJ-BIGIP-DMZ-2'    (L905, T244, R993, B260)
+   |    |    |    |    |    | ['NJ-BIGIP-DMZ-22', 'Static11', 'NJ-BIGIP-DMZ-2Static']
+   |    |    |    |    |    | child_window(title="NJ-BIGIP-DMZ-2", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'VA-BIGIP-DMZ-2'    (L900, T262, R1098, B282)
+   |    |    |    |    | ['VA-BIGIP-DMZ-2ListItem', 'ListItem5', 'VA-BIGIP-DMZ-2', 'VA-BIGIP-DMZ-20', 'VA-BIGIP-DMZ-21']
+   |    |    |    |    | child_window(title="VA-BIGIP-DMZ-2", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'VA-BIGIP-DMZ-2'    (L905, T264, R995, B280)
+   |    |    |    |    |    | ['Static12', 'VA-BIGIP-DMZ-2Static', 'VA-BIGIP-DMZ-22']
+   |    |    |    |    |    | child_window(title="VA-BIGIP-DMZ-2", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'NJ-BIGIP-2'    (L900, T282, R1098, B302)
+   |    |    |    |    | ['ListItem6', 'NJ-BIGIP-2ListItem', 'NJ-BIGIP-2', 'NJ-BIGIP-20', 'NJ-BIGIP-21']
+   |    |    |    |    | child_window(title="NJ-BIGIP-2", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'NJ-BIGIP-2'    (L905, T284, R963, B300)
+   |    |    |    |    |    | ['Static13', 'NJ-BIGIP-2Static', 'NJ-BIGIP-22']
+   |    |    |    |    |    | child_window(title="NJ-BIGIP-2", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'VA-BIGIP-2'    (L900, T302, R1098, B322)
+   |    |    |    |    | ['VA-BIGIP-2', 'ListItem7', 'VA-BIGIP-2ListItem', 'VA-BIGIP-20', 'VA-BIGIP-21']
+   |    |    |    |    | child_window(title="VA-BIGIP-2", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'VA-BIGIP-2'    (L905, T304, R964, B320)
+   |    |    |    |    |    | ['VA-BIGIP-22', 'Static14', 'VA-BIGIP-2Static']
+   |    |    |    |    |    | child_window(title="VA-BIGIP-2", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'NJ-BIGIP-3'    (L900, T322, R1098, B342)
+   |    |    |    |    | ['NJ-BIGIP-3', 'ListItem8', 'NJ-BIGIP-3ListItem', 'NJ-BIGIP-30', 'NJ-BIGIP-31']
+   |    |    |    |    | child_window(title="NJ-BIGIP-3", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'NJ-BIGIP-3'    (L905, T324, R963, B340)
+   |    |    |    |    |    | ['NJ-BIGIP-32', 'Static15', 'NJ-BIGIP-3Static']
+   |    |    |    |    |    | child_window(title="NJ-BIGIP-3", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'VA-BIGIP-3'    (L900, T342, R1098, B362)
+   |    |    |    |    | ['ListItem9', 'VA-BIGIP-3', 'VA-BIGIP-3ListItem', 'VA-BIGIP-30', 'VA-BIGIP-31']
+   |    |    |    |    | child_window(title="VA-BIGIP-3", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'VA-BIGIP-3'    (L905, T344, R964, B360)
+   |    |    |    |    |    | ['Static16', 'VA-BIGIP-32', 'VA-BIGIP-3Static']
+   |    |    |    |    |    | child_window(title="VA-BIGIP-3", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'NJ-BIGIP-NP-1'    (L900, T362, R1098, B382)
+   |    |    |    |    | ['NJ-BIGIP-NP-1', 'NJ-BIGIP-NP-1ListItem', 'ListItem10', 'NJ-BIGIP-NP-10', 'NJ-BIGIP-NP-11']
+   |    |    |    |    | child_window(title="NJ-BIGIP-NP-1", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'NJ-BIGIP-NP-1'    (L905, T364, R983, B380)
+   |    |    |    |    |    | ['Static17', 'NJ-BIGIP-NP-1Static', 'NJ-BIGIP-NP-12']
+   |    |    |    |    |    | child_window(title="NJ-BIGIP-NP-1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'ns2'    (L900, T382, R1098, B402)
+   |    |    |    |    | ['ListItem11', 'ns2', 'ns2ListItem', 'ns20', 'ns21']
+   |    |    |    |    | child_window(title="ns2", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'ns2'    (L905, T384, R923, B400)
+   |    |    |    |    |    | ['Static18', 'ns22', 'ns2Static']
+   |    |    |    |    |    | child_window(title="ns2", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'NJ-BIGIP-GSLB1'    (L900, T402, R1098, B421)
+   |    |    |    |    | ['ListItem12', 'NJ-BIGIP-GSLB1', 'NJ-BIGIP-GSLB1ListItem', 'NJ-BIGIP-GSLB10', 'NJ-BIGIP-GSLB11']
+   |    |    |    |    | child_window(title="NJ-BIGIP-GSLB1", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'NJ-BIGIP-GSLB1'    (L905, T404, R990, B419)
+   |    |    |    |    |    | ['Static19', 'NJ-BIGIP-GSLB12', 'NJ-BIGIP-GSLB1Static']
+   |    |    |    |    |    | child_window(title="NJ-BIGIP-GSLB1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'NJ-GSLB-FDSG-DMZ1'    (L900, T421, R1098, B441)
+   |    |    |    |    | ['ListItem13', 'NJ-GSLB-FDSG-DMZ1ListItem', 'NJ-GSLB-FDSG-DMZ1', 'NJ-GSLB-FDSG-DMZ10', 'NJ-GSLB-FDSG-DMZ11']
+   |    |    |    |    | child_window(title="NJ-GSLB-FDSG-DMZ1", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'NJ-GSLB-FDSG-DMZ1'    (L905, T423, R1021, B439)
+   |    |    |    |    |    | ['Static20', 'NJ-GSLB-FDSG-DMZ1Static', 'NJ-GSLB-FDSG-DMZ12']
+   |    |    |    |    |    | child_window(title="NJ-GSLB-FDSG-DMZ1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'NJ-BIGIP-FDSG-1'    (L900, T441, R1098, B461)
+   |    |    |    |    | ['NJ-BIGIP-FDSG-1', 'ListItem14', 'NJ-BIGIP-FDSG-1ListItem', 'NJ-BIGIP-FDSG-10', 'NJ-BIGIP-FDSG-11']
+   |    |    |    |    | child_window(title="NJ-BIGIP-FDSG-1", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'NJ-BIGIP-FDSG-1'    (L905, T443, R996, B459)
+   |    |    |    |    |    | ['NJ-BIGIP-FDSG-12', 'Static21', 'NJ-BIGIP-FDSG-1Static']
+   |    |    |    |    |    | child_window(title="NJ-BIGIP-FDSG-1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'VA-BIGIP-FDSG-1'    (L900, T461, R1098, B481)
+   |    |    |    |    | ['ListItem15', 'VA-BIGIP-FDSG-1ListItem', 'VA-BIGIP-FDSG-1', 'VA-BIGIP-FDSG-10', 'VA-BIGIP-FDSG-11']
+   |    |    |    |    | child_window(title="VA-BIGIP-FDSG-1", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'VA-BIGIP-FDSG-1'    (L905, T463, R997, B479)
+   |    |    |    |    |    | ['VA-BIGIP-FDSG-1Static', 'Static22', 'VA-BIGIP-FDSG-12']
+   |    |    |    |    |    | child_window(title="VA-BIGIP-FDSG-1", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | ListItem - 'FRA-BIGIP-FDSG-1'    (L900, T481, R1098, B501)
+   |    |    |    |    | ['FRA-BIGIP-FDSG-1ListItem', 'ListItem16', 'FRA-BIGIP-FDSG-1', 'FRA-BIGIP-FDSG-10', 'FRA-BIGIP-FDSG-11']
+   |    |    |    |    | child_window(title="FRA-BIGIP-FDSG-1", control_type="ListItem")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'FRA-BIGIP-FDSG-1'    (L905, T483, R1004, B499)
+   |    |    |    |    |    | ['FRA-BIGIP-FDSG-1Static', 'Static23', 'FRA-BIGIP-FDSG-12']
+   |    |    |    |    |    | child_window(title="FRA-BIGIP-FDSG-1", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Edit - ''    (L898, T311, R1737, B551)
+   |    |    |    | ['Edit2', 'VA-BIGIP-2Edit']
+   |    |    |    | child_window(auto_id="configTextBox", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar3']
+   |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L1719, T312, R1736, B329)
+   |    |    |    |    |    | ['Viewing match 1 of 836726 on NJ-BIGIP-3Button', 'Button4', 'Viewing match 1 of 836726 on NJ-BIGIP-3Button0', 'Viewing match 1 of 836726 on NJ-BIGIP-3Button1']
+   |    |    |    |    |    | child_window(auto_id="PART_LineUpButton", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Button5']
+   |    |    |    |    |    | child_window(auto_id="PageUp", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L1719, T337, R1736, B516)
+   |    |    |    |    |    | ['Viewing match 1 of 836726 on NJ-BIGIP-3Button2', 'Button6']
+   |    |    |    |    |    | child_window(auto_id="PageDown", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Thumb - ''    (L1719, T329, R1736, B337)
+   |    |    |    |    |    | ['Thumb', 'Viewing match 1 of 836726 on NJ-BIGIP-3Thumb', 'Thumb0', 'Thumb1']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L1719, T516, R1736, B533)
+   |    |    |    |    |    | ['Viewing match 1 of 836726 on NJ-BIGIP-3Button3', 'Button7']
+   |    |    |    |    |    | child_window(auto_id="PART_LineDownButton", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    | ['ScrollBar4']
+   |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L899, T533, R916, B550)
+   |    |    |    |    |    | ['FRA-BIGIP-FDSG-1Button', 'Button8', 'FRA-BIGIP-FDSG-1Button0', 'FRA-BIGIP-FDSG-1Button1']
+   |    |    |    |    |    | child_window(auto_id="PART_LineLeftButton", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['Button9']
+   |    |    |    |    |    | child_window(auto_id="PageLeft", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L1000, T533, R1702, B550)
+   |    |    |    |    |    | ['FRA-BIGIP-FDSG-1Button2', 'Button10']
+   |    |    |    |    |    | child_window(auto_id="PageRight", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Thumb - ''    (L916, T533, R1000, B550)
+   |    |    |    |    |    | ['FRA-BIGIP-FDSG-1Thumb', 'Thumb2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - ''    (L1702, T533, R1719, B550)
+   |    |    |    |    |    | ['Viewing match 1 of 836726 on NJ-BIGIP-3Button4', 'Button11']
+   |    |    |    |    |    | child_window(auto_id="PART_LineRightButton", control_type="Button")
+   |    |    |    | 
+   |    |    |    | Static - 'Config:'    (L809, T309, R857, B337)
+   |    |    |    | ['Static24', 'Config:', 'Config:Static', 'Config:0', 'Config:1', 'Config:Static0', 'Config:Static1']
+   |    |    |    | child_window(title="Config:", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Config:'    (L814, T314, R852, B330)
+   |    |    |    |    | ['Static25', 'Config:2', 'Config:Static2']
+   |    |    |    |    | child_window(title="Config:", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'Go'    (L1692, T112, R1737, B135)
+   |    |    |    | ['GoButton', 'Go', 'Button12', 'Go0', 'Go1']
+   |    |    |    | child_window(title="Go", auto_id="searchButton", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Go'    (L1707, T115, R1722, B131)
+   |    |    |    |    | ['Static26', 'Go2', 'GoStatic']
+   |    |    |    |    | child_window(title="Go", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - 'Viewing match 1 of 836726 on NJ-BIGIP-3'    (L1123, T219, R1737, B247)
+   |    |    |    | ['Static27', 'Viewing match 1 of 836726 on NJ-BIGIP-3', 'Viewing match 1 of 836726 on NJ-BIGIP-3Static', 'Viewing match 1 of 836726 on NJ-BIGIP-30', 'Viewing match 1 of 836726 on NJ-BIGIP-31', 'Viewing match 1 of 836726 on NJ-BIGIP-3Static0', 'Viewing match 1 of 836726 on NJ-BIGIP-3Static1']
+   |    |    |    | child_window(title="Viewing match 1 of 836726 on NJ-BIGIP-3", auto_id="hitCountLabel", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Viewing match 1 of 836726 on NJ-BIGIP-3'    (L1128, T224, R1350, B240)
+   |    |    |    |    | ['Static28', 'Viewing match 1 of 836726 on NJ-BIGIP-32', 'Viewing match 1 of 836726 on NJ-BIGIP-3Static2']
+   |    |    |    |    | child_window(title="Viewing match 1 of 836726 on NJ-BIGIP-3", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'Previous Match'    (L1123, T253, R1221, B276)
+   |    |    |    | ['Previous Match', 'Previous MatchButton', 'Button13', 'Previous Match0', 'Previous Match1']
+   |    |    |    | child_window(title="Previous Match", auto_id="PreviousMatchButton", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Previous Match'    (L1131, T256, R1213, B272)
+   |    |    |    |    | ['Previous MatchStatic', 'Previous Match2', 'Static29']
+   |    |    |    |    | child_window(title="Previous Match", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Button - 'Next Match'    (L1123, T282, R1221, B305)
+   |    |    |    | ['Next MatchButton', 'Button14', 'Next Match', 'Next Match0', 'Next Match1']
+   |    |    |    | child_window(title="Next Match", auto_id="NextMatchButton", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Next Match'    (L1141, T285, R1203, B301)
+   |    |    |    |    | ['Static30', 'Next MatchStatic', 'Next Match2']
+   |    |    |    |    | child_window(title="Next Match", control_type="Text")
+   |    |    |    | 
+   |    |    |    | CheckBox - 'Ignore Case'    (L1123, T178, R1206, B194)
+   |    |    |    | ['Ignore Case', 'Ignore CaseCheckBox', 'CheckBox', 'Ignore Case0', 'Ignore Case1', 'CheckBox0', 'CheckBox1']
+   |    |    |    | child_window(title="Ignore Case", auto_id="ignoreCase", control_type="CheckBox")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Ignore Case'    (L1143, T177, R1206, B193)
+   |    |    |    |    | ['Ignore CaseStatic', 'Static31', 'Ignore Case2']
+   |    |    |    |    | child_window(title="Ignore Case", control_type="Text")
+   |    |    |    | 
+   |    |    |    | CheckBox - 'Multi-Line'    (L1209, T178, R1283, B194)
+   |    |    |    | ['Multi-Line', 'Multi-LineCheckBox', 'CheckBox2', 'Multi-Line0', 'Multi-Line1']
+   |    |    |    | child_window(title="Multi-Line", auto_id="multiLine", control_type="CheckBox")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Multi-Line'    (L1229, T177, R1283, B193)
+   |    |    |    |    | ['Multi-Line2', 'Static32', 'Multi-LineStatic']
+   |    |    |    |    | child_window(title="Multi-Line", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Static - '16 devices'    (L809, T219, R892, B247)
+   |    |    |    | ['Static33', '16 devices', '16 devicesStatic', '16 devices0', '16 devices1', '16 devicesStatic0', '16 devicesStatic1']
+   |    |    |    | child_window(title="16 devices", auto_id="lblNumberOfDevices", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | Static - '16 devices'    (L832, T224, R887, B240)
+   |    |    |    |    | ['Static34', '16 devices2', '16 devicesStatic2']
+   |    |    |    |    | child_window(title="16 devices", control_type="Text")
+   |    |    |    | 
+   |    |    |    | Custom - ''    (L797, T98, R1749, B563)
+   |    |    |    | ['Custom2', 'General SearchCustom2']
+   |    |    |    | child_window(auto_id="working1", control_type="Custom")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Please wait for the current operation to complete.'    (L1132, T322, R1414, B338)
+   |    |    |    |    | ['Please wait for the current operation to complete.Static', 'Static35', 'Please wait for the current operation to complete.']
+   |    |    |    |    | child_window(title="Please wait for the current operation to complete.", control_type="Text")
+   |    |    |    | 
+   |    |    |    | ComboBox - ''    (L898, T112, R1686, B135)
+   |    |    |    | ['ComboBoxFRA-BIGIP-FDSG-DMZ-2', 'ComboBoxNJ-BIGIP-FDSG-DMZ-1 NJ-BIGIP-FDSG-DMZ-2', 'ComboBoxNJ-7000-INET1B', 'ComboBoxVA-7000-INET1A', 'ComboBoxNJ-7000-INET1A', 'ComboBoxNJ-BIGIP-GSLB1', 'ComboBoxNJ-A1K-FDSG-INET1', 'ComboBoxNJ-BIGIP-DMZ-2', 'ComboBoxnj-a1k-inet2', 'ComboBoxNJ-BIGIP-FDSG-DMZ-2', 'ComboBoxNJ-BIGIP-FDSG-DMZ-1 NJ-BIGIP-FDSG-DMZ-2 VA-BIGIP-2', 'ComparisonComboBox', 'ComboBoxNJ-BIGIP-FDSG-DMZ-1 VA-BIGIP-2', 'ComboBox', 'ComboBoxFRA-BIGIP-FDSG-DMZ-2 NJ-BIGIP-FDSG-DMZ-1 VA-BIGIP-FDSG-DMZ-1 NJ-BIGIP-DMZ-2 VA-BIGIP-DMZ-2 NJ-BIGIP-2 VA-BIGIP-2 NJ-BIGIP-3 VA-BIGIP-3 NJ-BIGIP-NP-1 NS2 NJ-BIGIP-GSLB1 NJ-GSLB-FDSG-DMZ1 NJ-BIGIP-FDSG-1 VA-BIGIP-FDSG-1 FRA-BIGIP-FDSG-1']
+   |    |    |    | child_window(auto_id="deviceComboBox", control_type="ComboBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - 'FRA-BIGIP-FDSG-DMZ-2 NJ-BIGIP-FDSG-DMZ-1 VA-BIGIP-FDSG-DMZ-1 NJ-BIGIP-DMZ-2 VA-BIGIP-DMZ-2 NJ-BIGIP-2 VA-BIGIP-2 NJ-BIGIP-3 VA-BIGIP-3 NJ-BIGIP-NP-1 NS2 NJ-BIGIP-GSLB1 NJ-GSLB-FDSG-DMZ1 NJ-BIGIP-FDSG-1 VA-BIGIP-FDSG-1 FRA-BIGIP-FDSG-1'    (L901, T115, R1666, B132)
+   |    |    |    |    | ['Edit3', 'ComparisonEdit']
+   |    |    |    |    | child_window(title="FRA-BIGIP-FDSG-DMZ-2 NJ-BIGIP-FDSG-DMZ-1 VA-BIGIP-FDSG-DMZ-1 NJ-BIGIP-DMZ-2 VA-BIGIP-DMZ-2 NJ-BIGIP-2 VA-BIGIP-2 NJ-BIGIP-3 VA-BIGIP-3 NJ-BIGIP-NP-1 NS2 NJ-BIGIP-GSLB1 NJ-GSLB-FDSG-DMZ1 NJ-BIGIP-FDSG-1 VA-BIGIP-FDSG-1 FRA-BIGIP-FDSG-1", auto_id="PART_EditableTextBox", control_type="Edit")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar5']
+   |    |    |    |    |    | child_window(auto_id="VerticalScrollBar", control_type="ScrollBar")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ScrollBar - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    | ['ScrollBar6']
+   |    |    |    |    |    | child_window(auto_id="HorizontalScrollBar", control_type="ScrollBar")
+   |    | 
+   |    | TabItem - 'Comparison'    (L887, T75, R963, B95)
+   |    | ['ComparisonTabItem', 'TabItem2', 'Comparison', 'Comparison0', 'Comparison1']
+   |    | child_window(title="Comparison", control_type="TabItem")
+   |    |    | 
+   |    |    | Static - 'Comparison'    (L893, T77, R957, B93)
+   |    |    | ['Static36', 'Comparison2', 'ComparisonStatic']
+   |    |    | child_window(title="Comparison", control_type="Text")
+   |    | 
+   |    | TabItem - 'Audit'    (L963, T75, R1004, B95)
+   |    | ['AuditTabItem', 'TabItem3', 'Audit', 'Audit0', 'Audit1']
+   |    | child_window(title="Audit", control_type="TabItem")
+   |    |    | 
+   |    |    | Static - 'Audit'    (L969, T77, R998, B93)
+   |    |    | ['AuditStatic', 'Static37', 'Audit2']
+   |    |    | child_window(title="Audit", control_type="Text")
+   |    | 
+   |    | TabItem - 'Logs'    (L1004, T75, R1041, B95)
+   |    | ['Logs', 'LogsTabItem', 'TabItem4', 'Logs0', 'Logs1']
+   |    | child_window(title="Logs", control_type="TabItem")
+   |    |    | 
+   |    |    | Static - 'Logs'    (L1010, T77, R1035, B93)
+   |    |    | ['Logs2', 'LogsStatic', 'Static38']
+   |    |    | child_window(title="Logs", control_type="Text")
+   | 
+   | Button - ''    (L1729, T73, R1752, B96)
+   | ['LogsButton', 'SettingsButton', 'Button15', 'SettingsButton0', 'SettingsButton1']
+   | child_window(auto_id="HelpButton", control_type="Button")
+   |    | 
+   |    | Image - ''    (L1729, T73, R1752, B96)
+   |    | ['SettingsImage', 'Image']
+   | 
+   | Button - 'Settings'    (L1675, T73, R1728, B96)
+   | ['Button16', 'SettingsButton2', 'Settings', 'Settings0', 'Settings1']
+   | child_window(title="Settings", auto_id="SettingsButton", control_type="Button")
+   |    | 
+   |    | Static - 'Settings'    (L1684, T78, R1719, B91)
+   |    | ['Static39', 'Settings2', 'SettingsStatic', 'SettingsStatic0', 'SettingsStatic1']
+   |    | child_window(title="Settings", control_type="Text")
+   |    |    | 
+   |    |    | Static - 'Settings'    (L1684, T78, R1719, B91)
+   |    |    | ['Static40', 'Settings3', 'SettingsStatic2']
+   |    |    | child_window(title="Settings", control_type="Text")
